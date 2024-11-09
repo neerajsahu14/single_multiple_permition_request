@@ -57,5 +57,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    implementation("androidx.compose.ui:ui:1.7.5")
+    implementation("androidx.compose.material:material:1.7.5")
+    implementation("androidx.compose.runtime:runtime-livedata:1.7.5")
     implementation("com.google.accompanist:accompanist-permissions:0.31.2-alpha")
+    implementation ("com.google.accompanist:accompanist-webview:0.31.2-alpha")
 }
